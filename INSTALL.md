@@ -17,7 +17,7 @@ You can skip almost all of the installation if you use [Docker](#docker-installa
 
 ## Ubuntu 14.04+ installation
 
-Note: if you're using something with very little memory, like a Digital Ocean micro droplet, it might cause an installation problem on the last step. See [Linux troubleshooting](INSTALL.md#linux-troubleshooting) below for how to fix it.
+Note: if you're using something with < 1GB of RAM, like a Digital Ocean micro droplet, it might cause an installation problem on the last step. See [Linux troubleshooting](INSTALL.md#linux-troubleshooting) below for how to fix it.
 
 An example bootstrap script for installing Audiogram on Ubuntu looks like this:
 
@@ -109,11 +109,13 @@ cd audiogram
 npm install
 ```
 
+## Windows installation
+
+Installing these dependencies on Windows is an uphill battle.  If you're running Windows 10, you'll probably have better luck installing [Docker for Windows](https://docs.docker.com/docker-for-windows/) and then following the [Docker instructions](INSTALL.md#docker-installation) below. Otherwise your best bet is probably to [install it on a remote Linux server](SERVER.md#im-the-only-one-using-it-and-installing-it-on-macwindows-was-a-real-drag).
+
 ## Docker installation
 
 If you use [Docker](https://www.docker.com/products/docker), you can build an image from the included Dockerfile.
-
-
 
 You can clone the repo and build an image, or build it directly from the repo:
 
