@@ -7,6 +7,51 @@ var d3 = require("d3"),
 
 preloadImages();
 
+
+
+var globalImageVariable;
+
+$("input#input-background-image").on("change", function(){
+    var $this = $(this);
+    var img = new Image();
+    img.setAttribute('crossOrigin', 'anonymous');
+
+    var imgId = $this.val();
+
+    var requestedUrl = "http://a.scpr.org/api/assets/" + imgId + ".json?auth_token=" + "YQrZMHY-w3zN6XXvqiN8Ag";
+    var request = require("request");
+    var options = {
+        url: requestedUrl,
+        json: true,
+    };
+
+    request(options, function (error, response, data){
+        if (!error && response.statusCode == 200) {
+            console.log(data.urls.full);
+            img.src = data.urls.full;
+        }
+    });
+
+    console.log(img);
+
+    img.onload = function(){
+        var canvas = document.createElement("canvas");
+        canvas.width = this.width;
+        canvas.height = this.height;
+        canvas.getContext("2d").drawImage(this, 0, 0);
+        // globalImageVariable = canvas.toDataURL("image/jpeg");
+
+        var dataURL = canvas.toDataURL();
+
+    };
+
+    img.onerror = function(){
+        globalImageVariable = null;
+    };
+
+});
+
+
 function submitted() {
 
   d3.event.preventDefault();
@@ -39,6 +84,8 @@ function submitted() {
     start: selection.start,
     end: selection.end
   });
+
+  settings.customBackgroundImage = globalImageVariable;
 
   delete settings.backgroundImageFile;
 
