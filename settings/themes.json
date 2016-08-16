@@ -16,6 +16,55 @@
     "captionRight": 1080
   },
 
+  "KPCC News": {
+    "samplesPerFrame": 64,
+    "waveTop": 400,
+    "waveBottom": 540,
+    "captionTop": 200,
+    "captionLeft": 20,
+    "captionRight": 620,
+    "waveColor": "#f87e21",
+    "captionColor": "#212121",
+    "backgroundImage": "_kpcc.jpg"
+  },
+
+  "The Frame": {
+    "samplesPerFrame": 64,
+    "waveTop": 400,
+    "waveBottom": 540,
+    "captionTop": 200,
+    "captionLeft": 20,
+    "captionRight": 620,
+    "waveColor": "#f6f6f6",
+    "foregroundColor": "#f6f6f6",
+    "captionColor": "#f6f6f6",
+    "backgroundImage": "_theframe.jpg"
+  },
+
+  "Take Two": {
+    "samplesPerFrame": 64,
+    "waveTop": 400,
+    "waveBottom": 540,
+    "captionTop": 200,
+    "captionLeft": 20,
+    "captionRight": 620,
+    "waveColor": "#f6f6f6",
+    "captionColor": "#f6f6f6",
+    "backgroundImage": "_taketwo.jpg"
+  },
+
+  "Air Talk": {
+    "samplesPerFrame": 64,
+    "waveTop": 400,
+    "waveBottom": 540,
+    "captionTop": 200,
+    "captionLeft": 20,
+    "captionRight": 620,
+    "waveColor": "#f6f6f6",
+    "captionColor": "#f6f6f6",
+    "backgroundImage": "_airtalk.jpg"
+  },
+
   "Grey Backed KPCC": {
     "backgroundColor": "#f6f6f6",
     "foregroundColor": "#f87e21",
@@ -31,73 +80,17 @@
     "captionColor": "#212121"
   },
 
-  "KPCC News": {
-    "width": 640,
-    "height": 640,
-    "samplesPerFrame": 64,
-    "waveTop": 400,
-    "waveBottom": 540,
-    "captionTop": 60,
-    "captionLeft": 20,
-    "captionRight": 620,
-    "waveColor": "#f87e21",
-    "captionColor": "#212121",
-    "backgroundImage": "kpcc-news.jpg"
-  },
-
-  "The Frame": {
-    "width": 640,
-    "height": 640,
-    "samplesPerFrame": 64,
-    "waveTop": 400,
-    "waveBottom": 540,
-    "captionTop": 10,
-    "captionLeft": 20,
-    "captionRight": 620,
-    "waveColor": "#f6f6f6",
-    "captionColor": "#212121",
-    "backgroundImage": "the-frame-square.jpg"
-  },
-
-  "Take Two": {
-    "width": 640,
-    "height": 640,
-    "samplesPerFrame": 64,
-    "waveTop": 400,
-    "waveBottom": 540,
-    "captionTop": 10,
-    "captionLeft": 20,
-    "captionRight": 620,
-    "waveColor": "#f6f6f6",
-    "captionColor": "#212121",
-    "backgroundImage": "taketwo.jpg"
-  },
-
-  "Air Talk": {
-    "width": 640,
-    "height": 640,
-    "samplesPerFrame": 64,
-    "waveTop": 400,
-    "waveBottom": 540,
-    "captionTop": 10,
-    "captionLeft": 20,
-    "captionRight": 620,
-    "waveColor": "#f6f6f6",
-    "captionColor": "#212121",
-    "backgroundImage": "airtalk.jpg"
-  },
-
-  "Background Image URL": {
-    // "captionAlign": "right",
-    // "captionTop": 60,
-    // "captionRight": 1220,
-    // "captionLeft": 640,
-    "backgroundImage": null,
-    "foregroundColor": "#212121",
-    "captionColor": "#212121",
-    "waveTop": 320,
-    "waveBottom": 660
-  },
+  // "Background Image URL": {
+  //   "captionAlign": "right",
+  //   "captionTop": 60,
+  //   "captionRight": 1220,
+  //   "captionLeft": 640,
+  //   "backgroundImage": null,
+  //   "foregroundColor": "#212121",
+  //   "captionColor": "#212121",
+  //   "waveTop": 320,
+  //   "waveBottom": 660
+  // },
 
   // "Neon": {
   //   "backgroundColor": "#556270",
