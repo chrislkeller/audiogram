@@ -77,17 +77,17 @@ function submitted() {
   setClass("loading");
   d3.select("#loading-message").text("Uploading audio...");
 
-	$.ajax({
-		url: "/submit/",
-		type: "POST",
-		data: formData,
-		contentType: false,
+    $.ajax({
+        url: "/submit/",
+        type: "POST",
+        data: formData,
+        contentType: false,
     dataType: "json",
-		cache: false,
-		processData: false,
-		success: function(data){
+        cache: false,
+        processData: false,
+        success: function(data){
       poll(data.id, 0);
-		},
+        },
     error: error
 
   });
