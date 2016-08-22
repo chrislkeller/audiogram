@@ -12,8 +12,8 @@
     "captionFont": "300 52px 'Source Sans Pro'",
     "captionLineHeight": 52,
     "captionLineSpacing": 7,
-    "captionLeft": 200,
-    "captionRight": 1080
+    "captionLeft": 520,
+    // "captionRight": 1080
   },
 
   "KPCC News": {
@@ -21,8 +21,8 @@
     "waveTop": 400,
     "waveBottom": 540,
     "captionTop": 200,
-    "captionLeft": 20,
-    "captionRight": 620,
+    // "captionLeft": 320,
+    // "captionRight": 620,
     "waveColor": "#f87e21",
     "captionColor": "#212121",
     "backgroundImage": "_kpcc.jpg"
@@ -33,8 +33,8 @@
     "waveTop": 400,
     "waveBottom": 540,
     "captionTop": 200,
-    "captionLeft": 20,
-    "captionRight": 620,
+    // "captionLeft": 320,
+    // "captionRight": 620,
     "waveColor": "#f6f6f6",
     "foregroundColor": "#f6f6f6",
     "captionColor": "#f6f6f6",
@@ -46,8 +46,8 @@
     "waveTop": 400,
     "waveBottom": 540,
     "captionTop": 200,
-    "captionLeft": 20,
-    "captionRight": 620,
+    // "captionLeft": 320,
+    // "captionRight": 620,
     "waveColor": "#f6f6f6",
     "captionColor": "#f6f6f6",
     "backgroundImage": "_taketwo.jpg"
@@ -58,8 +58,8 @@
     "waveTop": 400,
     "waveBottom": 540,
     "captionTop": 200,
-    "captionLeft": 20,
-    "captionRight": 620,
+    // "captionLeft": 320,
+    // "captionRight": 620,
     "waveColor": "#f6f6f6",
     "captionColor": "#f6f6f6",
     "backgroundImage": "_airtalk.jpg"
